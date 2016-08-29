@@ -1,0 +1,88 @@
+style>
+ @import url(tiny.css) (min-width:300px);
+ @import url(small.css) (min-width:600px);
+ @import url(big.css) (min-width:900px);
+</style>
+@media screen and (max-width: 300px) {
+ /* estilos */
+}
+@media screen and (max-width: 600px) {
+/* Estilos */
+}
+
+picture{
+	padding: 30px;
+}
+
+body
+{
+	font-family: 'Poiret One', cursive;
+	color: #00C1AE;
+	font-weight: 300;
+
+	
+}
+h2 {
+    font-family: "Arial", Times, serif;
+    letter-spacing: 1px;
+}
+
+
+h5{
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 5px;
+	font-size: 10px;
+	color: #3F5D8B;
+}
+tr {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #3F5D8B;
+	font-size: 15px;
+}
+
+
+
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+html,body{
+	
+	height: 100%;
+}
+
+
+#bannerOut{
+	position:relative;
+	width:800px;
+	margin-left:auto;
+	margin-right: auto;
+	height: 300px;	
+}
+#bannerMaster{	
+	width:800px;
+	margin-left:auto;
+	margin-right: auto;
+	height: 300px;	
+
+}
+#bannerOut span{
+	position:absolute;
+	background: rgb(0, 0, 0); 
+   	background: rgba(0, 0, 0, 0.3);
+	opaciy:0.1;
+	bottom:0;
+	left:0;
+	diplay:none;
+	width:780px;
+	padding:0px;
+	color:#FFF;	
+}
+.escondido{
+	display:none;
+}
+.visivel{
+	display:block;
+}
